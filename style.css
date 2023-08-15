@@ -1,0 +1,63 @@
+.center{
+    text-align: center;
+    font-family: 'Roboto' ,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+    
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed&family=Roboto:ital,wght@1,300;1,400&family=Ubuntu+Condensed&family=Ubuntu:wght@300&family=VT323&display=swap');
+
+.container{
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/eb/bc/56/ebbc5627d62741555393eef7eabc8cd6.jpg);
+}
+
+.item-center{
+    align-items: center;
+}
+.row input{
+    width: 291px;
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.calculator-icon {
+    font-size: 1.8em;
+    color:rgb(46, 46, 46);
+     /* You can adjust the value to make the emoji bigger or smaller */
+  }
+  
+
+.bg-red{
+    background-color: red;
+}
+.row{
+    margin: 8px 0px;
+}
+.mx-auto{
+    margin: auto;
+
+}
+.button{
+    margin: 0px 3px ;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 66px;
+}
+.flex{
+display: flex;
+}
+.flex-col{
+    flex-direction: column;
+
+}
